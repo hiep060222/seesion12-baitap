@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /////////////////////////////// Bảng cửu Chương/////////////////////////////
+        // b1: nhập vào 1 số 
+        // b2: tiến hành kiểm tra với điều kiện 0<n<10
+        // b3: nếu không thỏa mãn bước 2, nhập lại
+        // b4: in ra bảng cửu chương của số đó 
+
+
+        let a;
+        do {
+            a = +prompt("nhập vào 1 số từ 1 đén 9");
+        } while (a < 1 || a > 9);
+        let b;
+        for (i = 1; i <= 10; i++) {
+            b = a * i;
+            console.log(`${a}x${i}=${b}`);
+        }
+    </script>
+</body>
+
+</html>
